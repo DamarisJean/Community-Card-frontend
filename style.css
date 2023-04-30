@@ -1,0 +1,151 @@
+html {
+    box-sizing: border-box;
+    font-family: 'karla';
+    font-size: 16px;
+  }
+  
+  
+  body {
+    padding: 60px; 
+  }
+  
+  
+  h2, h4, p{
+    margin: 0;
+  }
+  
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  
+  #card {
+    box-shadow:2px 3px 7px 0px rgba(0,0,0,0.35);
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  
+  #top-section {
+    width: 100%; 
+    height: 45%; 
+    padding: 25px;
+  }
+  
+  
+  #bottom-section {
+    display: flex;
+    flex-direction: colum;
+    width: 100%; 
+    height: 55%; 
+    color: white;
+    
+  }
+  
+  
+  #bottom-left-section {
+    background-color: #144040;
+    padding: 25px;
+    height: 100%;  
+    flex-basis: 50%;
+  }
+  
+  
+  #bottom-right-section {
+    background-color: #1D5953;
+    padding: 25px;
+      height: 100%;  
+    flex-basis: 50%;
+  }
+  
+  
+  #top-section h2 {
+    color: #144040;
+    margin-bottom: 15px;
+  }
+  
+  
+  #top-section h4 {
+    color: #F2A172;
+    margin-bottom: 10px;
+  }
+  
+  
+  #top-section p {
+    color: #BFBDBA;
+  }
+  
+  
+  button {
+    color: white;
+    background-color: #D9704A;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px; 
+  }
+  
+  button:hover {
+    cursor: pointer;
+    background-color: #F2A172; 
+    transform: scale(1.02);
+  }
+  
+  
+  #price {
+   font-weight: 700;
+    font-size: 1.4rem;
+  }
+  
+  
+  #bottom-left-section h4 {
+    margin-bottom: 25px;  
+  }
+  
+  
+  #bottom-left-section p {
+    font-size: 0.8rem;
+    margin-bottom: 40px; 
+  }
+  
+  #price-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  
+  #price-frequency, #p {
+   margin: 5px; 
+  }
+  
+  
+  #price-frequency {
+    font-size: 0.8rem;
+    opacity: 0.7;
+    display: inline-block;
+    margin-left: 5px;
+  }
+  
+  
+  ul {
+    padding: 0;
+    list-style: none;  
+    font-size: 0.8rem;
+    opacity: 0.8;
+  }
+  
+  @media (min-width: 576px) {
+    
+    #card {
+    width: 550px;
+    height: 400px;
+    }
+    
+    #bottom-section {
+      flex-direction: row;
+    }
+  }
+  
+  
