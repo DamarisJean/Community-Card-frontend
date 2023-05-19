@@ -1,4 +1,5 @@
 # Community Card Frontend
+<img width="620" alt="Screenshot 2023-05-19 at 14 40 35" src="https://github.com/DamarisJean/Community-Card-frontend/assets/128718325/48220a17-f7ee-4f45-b6a0-ba77acbb38d7">
 
 This is the frontend for the Community Card project, which is a platform that connects people in local communities.
 
